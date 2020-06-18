@@ -17,18 +17,29 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
-    echo "$row[question]";
+$answerNumber=1;
+while (answerNumber >= 4){
+      echo "$row[question]";
     echo "<br/>";
     echo "<br/>";
     echo "$row[correct_answer]";
     echo "<br/>";
-    echo "$row[answer_2]";
+    echo "$row[";
+    echo answerNumber;
+    answerNumber+=1;
+    echo "];
     echo "<br/>";
-    echo "$row[answer_3]";
+    echo "$row[";
+    echo answerNumber;
+    answerNumber+=1;
+    echo "];
     echo "<br/>";
-    echo "$row[answer_4]";
+    echo "$row[";
+    echo answerNumber;
+    answerNumber+=1;
+    echo "];
     echo "<br/>";
-    echo "<br/>";
+    echo "<br/>";}
 }
 } else {
   echo "0 results";
