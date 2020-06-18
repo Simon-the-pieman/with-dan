@@ -26,7 +26,7 @@ while ($answerNumber >= 4){
     echo "$row[correct_answer]";
     $amswerNumber + 1;
     echo "<br/>";
-    echo "$row[answer_$answerNumber]";
+    echo "$row[answer_strval( $answerNumber )]";
     $answerNumber + 1;
     echo "<br/>";
     echo "$row[answer_$answerNumber]";
