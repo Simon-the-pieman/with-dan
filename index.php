@@ -27,15 +27,11 @@ while ($answerNumber >= 4){
     echo "$row[$answerNumber]";
     $answerNumber+1;
     echo "<br/>";
-    echo "$row[";
-    echo $answerNumber;
+    echo "$row[$answerNumber]";
     $answerNumber+1;
-    echo "]";
     echo "<br/>";
-    echo "$row[";
-    echo $answerNumber;
+    echo "$row[$answerNumber]";
     $answerNumber+1;
-    echo "]";
     echo "<br/>";
     echo "<br/>";}
 }
