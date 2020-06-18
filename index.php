@@ -18,7 +18,7 @@ if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
 $answerNumber=1;
-while (answerNumber >= 4){
+while ($answerNumber >= 4){
       echo "$row[question]";
     echo "<br/>";
     echo "<br/>";
