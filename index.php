@@ -20,7 +20,14 @@ if ($result->num_rows > 0) {
     echo "$row[question]";
     echo "<br/>";
     echo "<br/>";
-  }
+    echo "$row[correct answer]";
+    echo "<br/>";
+    echo "$row[answer 2]";
+    echo "<br/>;
+    echo "$row[answer 3]";
+    echo "<br/>";
+    echo "$row[answer 4]";
+}
 } else {
   echo "0 results";
 }
