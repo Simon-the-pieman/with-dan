@@ -27,17 +27,17 @@ while (answerNumber >= 4){
     echo "$row[";
     echo answerNumber;
     answerNumber+=1;
-    echo "];
+    echo "]";
     echo "<br/>";
     echo "$row[";
     echo answerNumber;
     answerNumber+=1;
-    echo "];
+    echo "]";
     echo "<br/>";
     echo "$row[";
     echo answerNumber;
     answerNumber+=1;
-    echo "];
+    echo "]";
     echo "<br/>";
     echo "<br/>";}
 }
