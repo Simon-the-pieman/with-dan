@@ -23,7 +23,7 @@ if ($result->num_rows > 0) {
     echo "$row[correct_answer]";
     echo "<br/>";
     echo "$row[answer_2]";
-    echo "<br/>;
+    echo "<br/>";
     echo "$row[answer_3]";
     echo "<br/>";
     echo "$row[answer_4]";
