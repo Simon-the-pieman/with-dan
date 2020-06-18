@@ -25,18 +25,18 @@ while (answerNumber >= 4){
     echo "$row[correct_answer]";
     echo "<br/>";
     echo "$row[";
-    echo answerNumber;
-    answerNumber+1;
+    echo $answerNumber;
+    $answerNumber+1;
     echo "]";
     echo "<br/>";
     echo "$row[";
-    echo answerNumber;
-    answerNumber+1;
+    echo $answerNumber;
+    $answerNumber+1;
     echo "]";
     echo "<br/>";
     echo "$row[";
-    echo answerNumber;
-    answerNumber+1;
+    echo $answerNumber;
+    $answerNumber+1;
     echo "]";
     echo "<br/>";
     echo "<br/>";}
