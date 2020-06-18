@@ -17,21 +17,23 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
-$answerNumber=1;
+$answerNumber = 1;
+echo "$row[question]";
 while ($answerNumber >= 4){
-      echo "$row[question]";
+      
     echo "<br/>";
     echo "<br/>";
     echo "$row[correct_answer]";
+    $amswerNumber + 1;
     echo "<br/>";
-    echo "$row[$answerNumber]";
-    $answerNumber+1;
+    echo "$row[answer_$answerNumber]";
+    $answerNumber + 1;
     echo "<br/>";
-    echo "$row[$answerNumber]";
-    $answerNumber+1;
+    echo "$row[answer_$answerNumber]";
+    $answerNumber + 1;
     echo "<br/>";
-    echo "$row[$answerNumber]";
-    $answerNumber+1;
+    echo "$row[answer_$answerNumber]";
+    $answerNumber + 1;
     echo "<br/>";
     echo "<br/>";}
 }
