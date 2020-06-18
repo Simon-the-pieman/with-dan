@@ -24,10 +24,8 @@ while ($answerNumber >= 4){
     echo "<br/>";
     echo "$row[correct_answer]";
     echo "<br/>";
-    echo "$row[;
-    echo $answerNumber;
+    echo "$row[$answerNumber]";
     $answerNumber+1;
-    echo ]";
     echo "<br/>";
     echo "$row[";
     echo $answerNumber;
