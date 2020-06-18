@@ -28,6 +28,7 @@ if ($result->num_rows > 0) {
     echo "<br/>";
     echo "$row[answer_4]";
     echo "<br/>";
+    echo "<br/>";
 }
 } else {
   echo "0 results";
