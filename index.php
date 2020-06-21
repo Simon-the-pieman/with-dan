@@ -18,25 +18,13 @@ if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
 echo "$row[question]";
-$answerNumber = 1;
 
-while ($answerNumber >= 3){
-      
-    echo "<br/>";
-    echo "<br/>";
     echo "$row[correct_answer]";
-    $amswerNumber + 1;
+   
+    echo "$row[answer_1]";
+    echo "$row[answer_2]";
+    echo "$row[answer_3]";
     echo "<br/>";
-    echo "$row[answer_+$answerNumber]";
-    $answerNumber + 1;
-    echo "<br/>";
-    echo "$row[answer_$answerNumber]";
-    $answerNumber + 1;
-    echo "<br/>";
-    echo "$row[answer_$answerNumber]";
-    $answerNumber + 1;
-    echo "<br/>";
-    echo "<br/>";}
 }
 } else {
   echo "0 results";
