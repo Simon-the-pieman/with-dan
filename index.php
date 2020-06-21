@@ -19,7 +19,7 @@ if ($result->num_rows > 0) {
   while($row = $result->fetch_assoc()) {
 echo "$row[question]<br/>";
 echo "<script>";
-    echo "$row[correct_answer]<br/>";   
+   print "$row[correct_answer]<br/>";   
     echo "$row[answer_2]<br/>";
     echo "$row[answer_3]<br/>";
     echo "$row[answer_4]<br/>";
