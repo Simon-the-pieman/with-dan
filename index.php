@@ -21,9 +21,10 @@ echo "$row[question]";
 
     echo "$row[correct_answer]";
    
-    echo "$row[answer_1]";
-    echo "$row[answer_2]";
-    echo "$row[answer_3]";
+    echo "$row[answer_2]<br/>";
+    echo "$row[answer_3]<br/>";
+    echo "$row[answer_4]";
+
     echo "<br/>";
 }
 } else {
