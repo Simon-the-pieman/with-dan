@@ -30,5 +30,7 @@ echo "$row[question]<br/>";
   echo "0 results";
 }
 echo"</script>";
+echo"</body>";
+echo"</html>";
 $conn->close();
 ?>
