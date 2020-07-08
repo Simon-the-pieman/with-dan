@@ -5,7 +5,7 @@ $password = "p4nlaaog7kn86ajf";
 $dbname = "c6gg8gz3f616n9de";
 
 // create function
-echo "<script type='javascript'> function checkifright {alert ("alert")} </script>";
+echo "<script type='javascript'> function checkifright {alert ('alert')} </script>";
  
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
