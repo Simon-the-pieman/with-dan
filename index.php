@@ -26,9 +26,9 @@ echo "$row[question]<br/>";
 
     echo "<br/>";
 }
-} echo"</script>"; 
-else {
+} else {
   echo "0 results";
 }
+echo"</script>";
 $conn->close();
 ?>
