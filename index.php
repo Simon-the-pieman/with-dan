@@ -13,7 +13,7 @@ if ($conn->connect_error) {
 
 $sql = "SELECT * FROM questions";
 $result = $conn->query($sql);
-echo"<script type='text/javascript'>";
+echo"<script type='application/javascript'>";
 if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
