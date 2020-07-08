@@ -3,8 +3,10 @@ $servername = "uf63wl4z2daq9dbb.chr7pe7iynqr.eu-west-1.rds.amazonaws.com";
 $username = "y83zbvzpsmhkv9u1";
 $password = "p4nlaaog7kn86ajf";
 $dbname = "c6gg8gz3f616n9de";
+?>
 // create function
-echo "function checkifright {alert ("alert")}";
+<script> function checkifright {alert ("alert")} </script>
+  <?php
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
