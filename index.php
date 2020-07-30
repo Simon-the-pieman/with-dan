@@ -18,7 +18,7 @@ if ($result->num_rows > 0) {
   while($row = $result->fetch_assoc()) {
     echo "<form>";
     echo "$row[question]";
-    echo '<input type="radio" id="answer" name="answer" value="$row[correct_answer]"> $row[correct_answer]<br/>';
+    echo '<input type="radio" id="answer" name="answer" value="$row[correct_answer]"> <label for="answer">$row[correct_answer]</label><br/>';
     echo "</form>";
     echo "$row[answer_2]<br/>";
     echo "$row[answer_3]<br/>";
