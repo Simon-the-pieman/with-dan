@@ -19,7 +19,7 @@ if ($result->num_rows > 0) {
     echo "<form>";
     echo "$row[question]<br/>";
     echo '<input type="radio" id="answer" name="answer" value="$row[correct_answer]"> <label for="answer">';
-    echo "$row[correct_answer]";
+    echo "$row[correct_answer]<br/>";
     echo '</label><br/>';
     echo '<input type="radio" id="answer2" name="answer" value="$row[answer_2]"> <label for="answer2">';
     echo "$row[answer_2]<br/>";
