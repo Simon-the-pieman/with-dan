@@ -21,11 +21,16 @@ if ($result->num_rows > 0) {
     echo '<input type="radio" id="answer" name="answer" value="$row[correct_answer]"> <label for="answer">';
     echo "$row[correct_answer]";
     echo '</label><br/>';
-    echo "</form>";
+    echo '<input type="radio" id="answer2" name="answer" value="$row[answer_2]"> <label for="answer2">';
     echo "$row[answer_2]<br/>";
+    echo '</label><br/>';
+    echo '<input type="radio" id="answer3" name="answer" value="$row[answer_3]"> <label for="answer3">';
     echo "$row[answer_3]<br/>";
+   echo '</label><br/>';
+    echo '<input type="radio" id="answer4" name="answer" value="$row[answer_4]"> <label for="answer4">';
     echo "$row[answer_4]<br/>";
-
+   echo '</label><br/>';
+    echo "</form>";
     echo "<br/>";
 }
 } else {
